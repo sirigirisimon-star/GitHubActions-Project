@@ -10,7 +10,8 @@ name: Java CI/CD Pipeline to Tomcat
 
 on:
   push:
-    branches: [ main ]   # Trigger on push to main branch
+    branches: [ main ]
+
 jobs:
   build:
       name: Build and Deploy
